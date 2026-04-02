@@ -1,0 +1,2 @@
+IniEnv = module load blast/2.13 bifrost sickle samtools/1.9 bwakit popins/2.0.0 mummer;
+G38path = /home/kongshuang/pan_genome_files/G38NoaltIndex/G38NoaltIndex

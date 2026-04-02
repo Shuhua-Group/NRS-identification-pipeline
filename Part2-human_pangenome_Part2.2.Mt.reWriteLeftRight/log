@@ -1,0 +1,1 @@
+python pangenomePart2.py --indir /share/labdata/TIB/20221205.TIB --outdir /home/kongshuang/human_pangenome_TBN/Part2OutAll
