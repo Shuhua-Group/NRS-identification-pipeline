@@ -37,12 +37,12 @@ The pipeline consists of two main parts:
 #### Method 1: Using the Executable (Recommended)
 ```bash
 # Place the executable from the bin folder into your environment
-pangenome --indir /path/to/input/dir --outdir /path/to/outdir
+pangenomeDebug5.Part.clean --indir /path/to/input/dir --outdir /path/to/outdir
 ```
 
 #### Method 2: Using Sample Path File
 ```bash
-pangenome --inPath /path/to/inputPathFile --outdir /path/to/outdir
+pangenomeDebug5.Part.clean --inPath /path/to/inputPathFile --outdir /path/to/outdir
 ```
 
 #### Method 3: Compile Yourself
@@ -99,10 +99,10 @@ Part1 configuration file contains the following main parameters:
 ### Part1 Example
 ```bash
 # Method 1
-pangenome --indir /path/to/sample/bam/files --outdir /path/to/output/directory
+pangenomeDebug5.Part.clean --indir /path/to/sample/bam/files --outdir /path/to/output/directory
 
 # Method 2
-pangenome --inPath /path/to/sample/path/file --outdir /path/to/output/directory
+pangenomeDebug5.Part.clean --inPath /path/to/sample/path/file --outdir /path/to/output/directory
 ```
 
 ### Part2 Example
@@ -114,7 +114,3 @@ python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/o
 
 - Part1: human_pangenomeDebug5
 - Part2: Part2.2.Mt.reWriteLeftRight
-
-## Contact
-
-For any questions, please contact the developer: Kong Shuang
