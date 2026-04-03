@@ -2,13 +2,13 @@
 
 ## Pipeline Overview
 
-The NRS (Novel Sequence Region) identification pipeline is a two-stage analysis pipeline for identifying and analyzing novel sequence regions in the human genome. NRS represents sequence information missing from current linear reference genomes (GRCh37/GRCh38) and is a crucial component of the pangenome.
+The NRS (Non-Reference Sequence) identification pipeline is a two-stage analysis pipeline for identifying and analyzing novel sequence regions in the human genome. NRS represents sequence information missing from current linear reference genomes (GRCh37/GRCh38) and is a crucial component of the pangenome.
 
 The human pangenome aims to capture the complete genetic variation within human populations, and NRS, as a key element, is of significant importance for understanding human genetic diversity, disease susceptibility, and drug responses. This pipeline systematically identifies and analyzes these novel sequence regions through advanced analytical methods, providing a powerful tool for pangenome research.
 
 The pipeline consists of two main parts:
 
-- **Part1**: Novel sequence of human pangenome analysis, including decontamination, contig region analysis, and end mapping
+- **Part1**: Non-Reference Sequence of human pangenome analysis, including decontamination, contig region analysis, and end mapping
 - **Part2**: Clustering analysis, merging results from different samples and performing clustering
 
 ## Installation Requirements
