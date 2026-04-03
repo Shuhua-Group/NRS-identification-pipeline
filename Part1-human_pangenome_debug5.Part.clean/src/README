@@ -1,0 +1,17 @@
+Project name: pan-genome pipeline_part1
+Version: 1.0
+Require:
+    g++(version>7.5.0, to be able to use regex)
+    c++(version:17,to be able to use file manage lib)
+    zlib
+    alignment tools available in path
+Version feature:
+    1.Multi thread safe.
+    2.All the parameters is accessible outside the program.
+Developer: kongshuang
+Warning:
+    1.Before running the pipeline, you have to make sure all the program is available in your current envrionment.
+    2.All the parameter associated with corresponding process is accessible in the configfile. Changing of paramter's format is not allowed! or you will get an error!
+    3.Thread could be controled by several Thread option in configfile, but be careful when the process has thread option itself.
+    4.To be able to use regex, please install new version of g++(version 7.5.0 works fine for me), or the program will not compile successful.
+
