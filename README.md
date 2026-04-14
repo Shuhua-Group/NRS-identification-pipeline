@@ -92,6 +92,10 @@ Part1 configuration file contains the following main parameters:
 - `blastLength`: Blast alignment length parameter
 - `Assembletool`: Assembly tool choice (megahit or popins)
 - `PopinsPath`: popins2 path
+- `blastindex`: Blast index Path prefix
+- `accession`: taxi selection (nucl_gb.accession2taxid which is available in ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/)
+- `lineage`: taxi selection (rankedlineage.dmp, which is available in https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/)
+- `Grch38Noalt`: hg38 reference genome
 
 ## Example Commands
 
