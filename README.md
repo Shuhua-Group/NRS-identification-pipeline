@@ -97,6 +97,10 @@ Part1 configuration file contains the following main parameters:
 - `lineage`: taxi selection (rankedlineage.dmp, which is available in https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/)
 - `Grch38Noalt`: hg38 reference genome
 
+Part2 configuration file contains the following main parameters:
+- `IniEnv`: Program running environment
+- `G38path`: hg38 reference genome index 
+
 ## Example Commands
 
 ### Part1 Example
