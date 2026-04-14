@@ -37,12 +37,12 @@ The pipeline consists of two main parts:
 #### Method 1: Using the Executable (Recommended)
 ```bash
 # Place the executable from the bin folder into your environment
-pangenomeDebug5.Part.clean --indir /path/to/input/dir --outdir /path/to/outdir
+pangenomeDebug5.Part.clean --indir /path/to/input/dir --outdir /path/to/outdir --config /path/to/ConfigFile
 ```
 
 #### Method 2: Using Sample Path File
 ```bash
-pangenomeDebug5.Part.clean --inPath /path/to/inputPathFile --outdir /path/to/outdir
+pangenomeDebug5.Part.clean --inPath /path/to/inputPathFile --outdir /path/to/outdir --config /path/to/ConfigFile
 ```
 
 #### Method 3: Compile Yourself
@@ -54,7 +54,7 @@ pangenomeDebug5.Part.clean --inPath /path/to/inputPathFile --outdir /path/to/out
 ### Part2: Clustering Analysis
 
 ```bash
-python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/output
+python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/output --config /path/to/ConfigFile
 ```
 
 ## Result Description
@@ -99,15 +99,15 @@ Part1 configuration file contains the following main parameters:
 ### Part1 Example
 ```bash
 # Method 1
-pangenomeDebug5.Part.clean --indir /path/to/sample/bam/files --outdir /path/to/output/directory
+pangenomeDebug5.Part.clean --indir /path/to/sample/bam/files --outdir /path/to/output/directory --config /path/to/ConfigFile
 
 # Method 2
-pangenomeDebug5.Part.clean --inPath /path/to/sample/path/file --outdir /path/to/output/directory
+pangenomeDebug5.Part.clean --inPath /path/to/sample/path/file --outdir /path/to/output/directory --config /path/to/ConfigFile
 ```
 
 ### Part2 Example
 ```bash
-python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/output
+python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/output --config /path/to/ConfigFile
 ```
 
 ## Version Information
