@@ -77,10 +77,9 @@ python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/o
 ## Notes
 
 1. Do not include "-" in input file names, as Part2 uses names for identification
-2. To modify parameters, copy the ConfigFile to your own directory and use `--config /path/to/your/config` parameter
+2. To modify parameters, copy the ConfigFile to your own directory and use `--config /path/to/config` parameter
 3. The default decontamination method is fast, which only searches human or ape datasets
-4. Part2 uses 10 threads for G38 filtering by default
-5. MergeLefRig/MergeOverlap.position file may have no results due to popins call failure
+4. MergeLefRig/MergeOverlap.position file may have no results due to popins call failure
 
 ## Configuration File Description
 
