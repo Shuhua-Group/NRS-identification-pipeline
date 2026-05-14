@@ -121,3 +121,13 @@ python pangenomePart2.py --indir /path/to/part1/output --outdir /path/to/part2/o
 
 - Part1: human_pangenomeDebug5
 - Part2: Part2.2.Mt.reWriteLeftRight
+
+## License
+
+NRS-identification-pipeline is licensed under the Apache License 2.0.
+
+SPDX-License-Identifier: Apache-2.0
+
+Copyright (c) 2025 School of Life Sciences, Fudan University, Shuhua Xu's Research Group.
+
+See the LICENSE file for the full license text.
